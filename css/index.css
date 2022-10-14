@@ -1,4 +1,12 @@
 .box{
-    height: 20px;
-    width: 50px;
+    height: 60px;
+}
+body{
+    height: 5000px;
+}
+.special-color1{
+    background-color: #21aa58;
+}
+.special-color2{
+    background-color: #f2f5f8;
 }

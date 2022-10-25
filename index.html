@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md  bg-light position-fixed  w-100">
+    <!--navigation-->
+    <nav class="navbar navbar-expand-md  bg-white sticky-top hh w-100">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="images/logo.png" class="w-100"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,12 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">تماس با ما</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">درباره ما</a>
-                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#">پنل سازمانی</a>
                     </li>
@@ -53,7 +49,7 @@
         </div>
     </nav>
 
-
+    <!--start-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 px-0 col-lg-6">
@@ -61,18 +57,18 @@
                     <source media="(max-width:575px)" srcset="images/1.jpg">
                     <source media="(min-width:576px) and (max-width:767px )" srcset="images/2.jpg">
                     <source media="(min-width:768px ) and (max-width:991px )" srcset="images/3.jpg">
-                    <source media="(min-width:992px ) and (max-width:1199px )" srcset="images/4.jpg">
-                    <source media="(min-width:1200px ) and (max-width:1399px )" srcset="images/5.jpg">
-                    <img src="images/6.jpg" class="img-fluid">
+                    <source media="(min-width:992px ) and (max-width:1199px )" srcset="images/5.jpg">
+                    <source media="(min-width:1200px ) and (max-width:1399px )" srcset="images/6.jpg">
+                    <img src="images/7.jpg" class="img-fluid">
                 </picture>
             </div>
-            <div class="col-12 special-color1 col-lg-6">
-                <div class="row  pt-xl-4">
-                    <div class="col-12 text-end text-white col-lg-6 pe-xl-5 w-100">
-                        <h1 class="w-100 mt-3 mt-lg-1 px-lg-3">تجربه زندگی راحت تر سریع تر و به صرفه تر با سوپر اپلیکیشن
-                            اسنپ
-                        </h1>
-                        <p class="w-100 mt-3  px-lg-5 pe-xl-3 pt-xl-5">از درخواست خودرو گرفته تا سفارش غذاخرید سوپر
+            <div class="col-12 special-color1 col-lg-6 ">
+                <div class="row  pt-xl-3  mx-xl-auto  mt-lg-5  me-lg-5 ms-lg-4 mt-xl-5">
+                    <div class="col-12 text-end text-white  col-lg-6 pe-xl-5 w-100">
+                        <h3 class="w-100 mt-3 mt-lg-1 px-lg-3">تجربه زندگی راحت تر سریع تر و به صرفه تر با سوپر اپلیکیشن
+                        </h3>
+                        <p class="w-100 mt-2  px-lg-3 mt-lg-5 pe-xl-3 mt-xl-3">از درخواست خودرو گرفته تا سفارش غذاخرید
+                            سوپر
                             مارکتی خرید بلیط سفر
                             مشاوره پزشک و
                             روانشناسی رزرو هتل
@@ -80,27 +76,35 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 d-grid gap-2 mb-5">
+                    <div class="col-12 d-grid gap-2 mb-5 ">
                         <button class="btn btn-light  d-lg-none" type="button">دانلود اپلیکیشن اسنپ</button>
                     </div>
-                    <div class="col-lg-6 mt-lg-5">
-                        <button class="d-none text-success btn btn-light w-50 ms-lg-5 d-lg-flex ">ارسال لینک </button>
+
+                    <div class="col-lg-6">
+                        <button
+                            class="d-none text-success  rounded-2 border-white btn-light w-50 ms-lg-5 d-lg-flex ">ارسال
+                            لینک </button>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-none d-lg-flex me-5 pe-5 mt-lg-5">
+                        <div class="d-none d-lg-flex me-5 pe-5 ">
                             <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder="09xxxx6789">
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 d-grid gap-2 mx-auto mt-lg-5">
-                        <button class="btn  special-color1 text-white btn-light d-none d-lg-flex  " type="button"><p class="text-lg-center">ورود به وب اپلیکیشن اسنپ</p></button>
+                    <div class="row">
+                        <div class="col-lg-6  d-grid gap-2 mx-auto  mt-lg-4 mt-xl-5 mt-xxl-3">
+                            <button class="btn  special-color1 text-white btn-light d-none d-lg-flex  " type="button">
+                                <p class="text-lg-center">ورود به وب اپلیکیشن اسنپ</p>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <!--next part-->
+    <div class="container-fluid">
         <div class="row ">
             <div
                 class="col d-none mt-5 mb-5 col-lg-2 offset-lg-3 d-lg-flex  flex-lg-wrap col-xl-2 offset-xl-2 col-xxl-2 offset-xxl-1">
@@ -120,264 +124,16 @@
             </div>
 
         </div>
+    </div>
+    <!--next part-->
+    <div class="container-fluid">
         <div class="row special-color2">
             <div class="col-12 mt-4 text-center ">
                 <h1 class="w-1oo">یک اپلیکیشن برای تمام نیازها</h1>
             </div>
 
-            <!--
-            <div class="col d-flex flex-wrap justify-content-evenly d-md-none">
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/vanet.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">درخواست وانت</p>
 
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/motor.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">پیک موتوری</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/taxi.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">تاکسی اینترنتی</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/supermarket.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">اسنپ اکسپرس</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/supermarket.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">سوپر مارکت انلاین</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/food.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">سفارش انلاین غذا</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/doctor.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">دکتر</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/Domestic Trip.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">بلیط پرواز خارجی</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/Domestic Trip.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">بلیط پرواز داخلی</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/newShop.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">فروشگاه</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/eghamatgah.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">رزرو اقامتگاه</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/hotel.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">رزرو هتل</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/club.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">اسنپ کلاب</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/train.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">بلیط قطار</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/bus.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">بلیط اتوبوس</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/credit.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">سرویس اعتباری</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/asbabkeshi.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">اسبای کشی منزل</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/Service Icon.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">سرمایه گذاری</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-4 border  border-white bg-white w-25 h-200 rounded rounded-4 d-flex flex-wrap justify-content-center ">
-                    <div class="row">
-                        <div class="col"><img src="images/ticket.png" class="w-50 ms-4 mt-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-end w-100 text-black">اسنپ تیکت</p>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-          </div> -->
-            <!--for sm size -->
+            <!--for sm and md size -->
 
             <div class="col-12 d-md-none">
                 <div class="row d-flex flex-wrap justify-content-evenly  mt-4 mb-4">
@@ -390,7 +146,10 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <p class="text-center w-100 text-black">درخواست وانت</p>
+                                    <!--example ezafe konam-->
+                                    <h5 class="text-center w-100 text-black">درخواست وانت</h5>
+                                    <p class="text-center text-secondary d-none d-sm-block w-100 text-black">درخواست
+                                        وانت</p>
                                 </div>
                             </div>
                         </a>
@@ -646,297 +405,246 @@
                 </div>
             </div>
 
-            <!--for md size incorect
-            <div class="d-none col-md-12 d-md-flex">
-                <div class="row d-md-flex flex-md-wrap justify-content-md-evenly">
-                    <div
-                        class="col-3  border border-white bg-white w-50 h-100 rounded rounded-3 d-md-flex flex-md-wrap ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8 pe-md-2 ">
-                                <p class="text-end w-100 text-black pt-2">درخواست وانت</p>
-                                <p class="text-end w-100 text-secondary fw-light ">حمل ونقل با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/vanet.png" class="w-100 d-md-flex mt-md-2">
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        class="col-3 border border-white bg-white w-50 h-100 rounded rounded-3 d-md-flex flex-md-wrap ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8 pe-md-2 ">
-                                <p class="text-end w-100 text-black pt-2">درخواست وانت</p>
-                                <p class="text-end w-100 text-secondary fw-light ">حمل ونقل با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/vanet.png" class="w-100 d-md-flex mt-md-2">
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        class="col-3 border border-white bg-white w-50 h-100 rounded rounded-3 d-md-flex flex-md-wrap ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8 pe-md-2 ">
-                                <p class="text-end w-100 text-black pt-2">درخواست وانت</p>
-                                <p class="text-end w-100 text-secondary fw-light ">حمل ونقل با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/vanet.png" class="w-100 d-md-flex mt-md-2">
-                            </div>
-                        </a>
-                    </div>
 
+            <!--for md up size-->
+            <div class="row  d-none d-md-flex justify-content-md-evenly px-0 mt-md-5">
+                <div
+                    class="col-md-3  ms-md-5 mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8  ">
+                            <h5 class="text-end w-100 mb-2 mt-md-3">درخواست وانت</h5>
+                            <p class="text-end   w-100 mb-md-5 text-secondary">حمل ونقل با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/vanet.png" class="w-75 mx-auto  ps-xxl-3 pt-md-4 d-block ">
+                        </div>
+                    </a>
                 </div>
-            </div>
-            -->
+                <div class=" col-md-3   mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-md-2 mt-md-3">پیک موتوری</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">حمل ونقل با اسنپ</p>
+                        </div>
 
-            <!--for md size corect-->
-
-            <div class="col-12 d-none d-md-flex mt-md-5 justify-content-md-evenly ">
-                <div class="row d-md-flex flex-md-wrap justify-content-md-evenly">
-                    <div class="col-md-4 border border-white bg-white w-25 h-100 rounded rounded-3  flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">درخواست وانت</h5>
-                                <p class="text-end w-100 text-secondary  ">حمل ونقل با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/vanet.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap  ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">پیک موتوری</h5>
-                                <p class="text-end w-100 text-secondary  ">حمل ونقل با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/motor.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">تاکسی اینترنتی</h5>
-                                <p class="text-end w-100 text-secondary  ">امکان درخواست انلاین خودرو با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/taxi.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/motor.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
                 </div>
-            </div>
 
-            <div class="col-12 d-none d-md-flex  mt-md-4 justify-content-md-evenly">
-                <div class="row d-md-flex flex-md-wrap justify-content-md-evenly">
-                    <div class="col-md-4 border  border-white bg-white w-25 h-100 rounded rounded-3  flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">سوپر مارکت انلاین</h5>
-                                <p class="text-end w-100 text-secondary  ">نهیه اقلام روزانه با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/supermarket.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap  ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">سفارش انلاین غذا</h5>
-                                <p class="text-end w-100 text-secondary  ">سفارش غذا نان وشیرینی با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/food.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">اسنپ اکسپرس</h5>
-                                <p class="text-end w-100 text-secondary  ">تحویل کمتر از 30 دقیقه</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/supermarket.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                <div class="col-md-3 me-md-5  mb-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-2 mt-3">تاکسی اینترنتی</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">امکان درخواست آنلاین</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/taxi.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
                 </div>
-            </div>
-
-            <div class="col-12 d-none d-md-flex mt-md-4 justify-content-md-evenly">
-                <div class="row d-md-flex flex-md-wrap justify-content-md-evenly">
-                    <div class="col-md-4 border border-white bg-white w-25 h-100 rounded rounded-3  flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">دکتر</h5>
-                                <p class="text-end w-100 text-secondary  ">درمان با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/doctor.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap  ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">بلیط پرواز خارجی</h5>
-                                <p class="text-end w-100 text-secondary  ">گردشگری با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/Domestic Trip.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">بلیط پرواز داخلی</h5>
-                                <p class="text-end w-100 text-secondary  ">گردشگری با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/Domestic Trip.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                <div
+                    class="col-md-3  ms-md-5 mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8  ">
+                            <h5 class="text-end w-100 mb-2 mt-md-3">اسنپ اکسپرس</h5>
+                            <p class="text-end   w-100 mb-md-5 text-secondary">تحویل کمتر از30 دقیقه</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/supermarket.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
                 </div>
-            </div>
+                <div class=" col-md-3   mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-md-2 mt-md-3">سوپر مارکت آنلاین</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">تهیه اقلام روزانه با اسنپ</p>
+                        </div>
 
-            <div class="col-12 d-none d-md-flex mt-md-4 justify-content-md-evenly">
-                <div class="row d-md-flex flex-md-wrap justify-content-md-evenly">
-                    <div class="col-md-4 border border-white bg-white w-25 h-100 rounded rounded-3  flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">فروشگاه</h5>
-                                <p class="text-end w-100 text-secondary  ">خرید از فروشگاه های معتبر شهر</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/newShop.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap  ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">رزرو اقامتگاه</h5>
-                                <p class="text-end w-100 text-secondary  ">گردشگری با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/eghamatgah.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">رزرو هتل</h5>
-                                <p class="text-end w-100 text-secondary  ">گردشگری با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/hotel.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/supermarket.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
                 </div>
-            </div>
 
-            <div class="col-12 d-none d-md-flex mt-md-4 justify-content-md-evenly">
-                <div class="row d-md-flex flex-md-wrap justify-content-md-evenly">
-                    <div class="col-md-4 border border-white bg-white w-25 h-100 rounded rounded-3  flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">اسنپ کلاب</h5>
-                                <p class="text-end w-100 text-secondary  ">باشگاه مشتریان اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/club.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-
-                    <div
-                        class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap  ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">بلیط قطار</h5>
-                                <p class="text-end w-100 text-secondary  ">گردشگری با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/train.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">بلیط اتوبوس</h5>
-                                <p class="text-end w-100 text-secondary  ">گردشگری با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/bus.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                <div class="col-md-3 me-md-5  mb-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-2 mt-3">سفارش آنلاین غذا</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">سفارش نان غذا شیرینی با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/food.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
                 </div>
-            </div>
+                <div
+                    class="col-md-3  ms-md-5 mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8  ">
+                            <h5 class="text-end w-100 mb-2 mt-md-3">دکتر</h5>
+                            <p class="text-end   w-100 mb-md-5 text-secondary">درمان با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/doctor.png" class="w-75 mx-auto me-xxl-0 me-xl-0 pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-3   mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-md-2 mt-md-3">بلیط پرواز خارجی</h5>
+                            <p class="text-end w-100 mb-md-3 text-seconda">گردشگری با اسنپ</p>
+                        </div>
 
-            <div class="col-12 d-none d-md-flex mt-md-4 mb-md-5 justify-content-md-evenly">
-                <div class="row d-md-flex flex-md-wrap justify-content-md-evenly">
-                    <div class="col-md-4 border border-white bg-white w-25 h-100 rounded rounded-3  flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">سرویس اعتباری</h5>
-                                <p class="text-end w-100 text-secondary  ">پرداخت با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/credit.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/Domestic Trip.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
 
-                    <div
-                        class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap  ">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">اسباب کشی منزل</h5>
-                                <p class="text-end w-100 text-secondary  ">حمل ونقل با اسنپ</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/asbabkeshi.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                <div class="col-md-3 me-md-5  mb-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-2 mt-3">بلیط پرواز داخلی</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">گردشگری با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/Domestic Trip.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="col-md-3  ms-md-5 mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8  ">
+                            <h5 class="text-end w-100 mb-2 mt-md-3">فروشگاه</h5>
+                            <p class="text-end   w-100 mb-md-5 text-secondary">خرید از فروشگاه های معتبر شهر</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/supermarket.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-3   mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-md-2 mt-md-3">رزرو اقامتگاه</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">گردشگری با اسنپ</p>
+                        </div>
 
-                    <div class="col-md-4  border  border-white bg-white w-25 h-100 rounded rounded-3 d-flex flex-wrap">
-                        <a href="#" class="text-decoration-none d-flex">
-                            <div class="col-8">
-                                <h5 class="text-end w-100 text-black pt-1">سرمایه گزاری</h5>
-                                <p class="text-end w-100 text-secondary  ">خدمات غیر حضوری بورس</p>
-                            </div>
-                            <div class="col-4">
-                                <img src="images/vanet.png" class="w-100 ">
-                            </div>
-                        </a>
-                    </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/eghamatgah.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 me-md-5  mb-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-2 mt-3">رزرو هتل</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">گردشگری با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/hotel.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="col-md-3  ms-md-5 mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8  ">
+                            <h5 class="text-end w-100 mb-2 mt-md-3">اسنپ کلاب</h5>
+                            <p class="text-end   w-100 mb-md-5 text-secondary">باشگاه مشتریان اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/club.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-3   mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-md-2 mt-md-3">بلیط قطار</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">گردشگری با اسنپ</p>
+                        </div>
+
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/train.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 me-md-5  mb-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-2 mt-3">بلیط اتوبوس</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">گردشگری با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/bus.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="col-md-3  ms-md-5 mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8  ">
+                            <h5 class="text-end w-100 mb-2 mt-md-3">اسباب کشی منزل</h5>
+                            <p class="text-end   w-100 mb-md-5 text-secondary">حمل ونقل با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/asbabkeshi.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-3   mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-md-2 mt-md-3">سرمایه گزاری</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">خدمات غیر حضوری بورس</p>
+                        </div>
+
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/Service Icon.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 me-md-5  mb-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-2 mt-3">اسنپ تیکت</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">خرید آنلاین بلیط با اسنپ</p>
+                        </div>
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/ticket.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
+                </div>
+                <div class=" col-md-3   mb-md-5 d-md-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <a href="#" class=" d-flex text-decoration-none text-black">
+                        <div class="col-md-8 ">
+                            <h5 class="text-end w-100 mb-md-2 mt-md-3">سرویس اعتباری</h5>
+                            <p class="text-end w-100 mb-md-3 text-secondary">پرداخت با اسنپ</p>
+                        </div>
+
+                        <div class="col-md-4 col-xxl-5">
+                            <img src="images/credit.png" class="w-75 mx-auto pt-md-4 d-block ">
+                        </div>
+                    </a>
                 </div>
 
             </div>
-
         </div>
-
-
-        <!--next part-->
-        <div class="row d-flex ">
-            <div class="col-12 py-5 px-5  ">
+    </div>
+    <!--next part-->
+    <!--first image for all size-->
+    <div class="container-fluid">
+        <div class="row d-flex  pe-0">
+            <div class="col-11  col-xl-10 mt-5 mb-5  mx-auto  ">
                 <a href="#">
                     <picture>
                         <source media="(max-width:575px)" srcset="images/food1.jpg">
@@ -948,6 +656,15 @@
                     </picture>
                 </a>
             </div>
+        </div>
+    </div>
+
+
+    <!--next part-->
+    <!--image and p for xs until  befor lg size-->
+    <div class="container-fluid">
+        <div class="row d-flex  pe-0">
+
             <div class="col-12 d-lg-none px-0">
                 <picture>
                     <source media="(max-width:575px)" srcset="images/super-app1.jpg">
@@ -959,286 +676,336 @@
             </div>
             <div class="col-12 d-lg-none text-end px-5 align-content-md-between">
                 <h3 class="py-4">سوپر اپ اسنپ پاسخی به تمام نیازها</h3>
-                <p>اسنپ اولین تاکسی اینترنتی ایران بعد از پنج سال فعالیت در حوزه تردد شهری به یک سوپر آپ با خدمات متنوع
-                    تبدیل شد.سوپرآپ اسنپ راه حل جدیدوساده است که با استفاده از انهابا یک اپلیکیشن میتوانید علاوه بر
-                    درخواست خودرو موتور و وانت از خدمات متعددی از جمله سفارش غذاپزشک و مشاور انلاین خرید از سوپر مارکت و
+                <p>اسنپ اولین تاکسی اینترنتی ایران بعد از پنج سال فعالیت در حوزه تردد شهری به یک سوپر آپ با
+                    خدمات متنوع
+                    تبدیل شد.سوپرآپ اسنپ راه حل جدیدوساده است که با استفاده از انهابا یک اپلیکیشن میتوانید علاوه
+                    بر
+                    درخواست خودرو موتور و وانت از خدمات متعددی از جمله سفارش غذاپزشک و مشاور انلاین خرید از سوپر
+                    مارکت و
                     فروشگاه ها اسباب کشی خرید بلیطرزرو هتل پرداخت قبض و خرید شارژاستفاده کنید</p>
             </div>
-            <!--next part-->
-            <div class="row position-relative">
-                <div class="col-lg-6 ">
-                    <h1 class="text-end mt-5 me-5 ms-5 mb-5">سوپر آپ اسنپ پاسخی به تمام نیازها</h1>
-                    <p class="text-end mt-5 me-5 ms-5">اسنپ اولین تاکسی اینترنتی ایران بعد از 5 سال فعالیت در حوزه تردد
-                        شهری به یک سوپر آپ باخدمات متنوع تبدیل شد.سوپر آپ اسنپ راه حلی جدیدوساده است که با استفاده از آن
-                        تنها با یک اپلیکیشن میتوانید علاوه بردرخواستخودرو موتور و وانت از خدمات متعددی از جمله سفارش غذا
-                        پزشک و مشاورآنلاین خرید از سوپر مارکت ها و فروشگاهها اسباب کشی حرید بلیط رزرو هتل پرداخت قبض
-                        وخرید شارژ استفاده کرد</p>
-                </div>
-                <div class="col-lg-6 px-0">
-                    <img src="images/super-app5.jpg" class="w-100">
-                </div>
-
-                <div class="d-none d-xl-block col-xl-3  position-absolute bottom-0 start-0   mt-xl-5">
-                    <div class="row ">
-                        <div class="col-12 border mx-auto rounded-4 w-75  h-25  special-color3">
-                            <img src="images/hand.png" class="w-50 mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 w-100 text-end my-4 px-5 ">
-                            <h3 class="mb-3">آسان</h3>
-                            <p>برای استفاده از هرکدام از خدمات سوپر آپ اسنپ کافی است وارد اپلیکیشن اسنپ شوید وروی ایکون
-                                مورد
-                                نظر بزنید</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-none d-xl-block col-xl-3 position-absolute  bottom-0 start-50 translate-middle-x  ">
-                    <div class="row">
-                        <div class="col-12 border mx-auto rounded-4 w-75  h-25  special-color3">
-                            <img src="images/jet.png" class="w-50 mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 w-100 text-end my-4 px-5">
-                            <h3 class="mb-3">سریع</h3>
-                            <p>قرار گرفتن خدمات مختلف در یک پلتفرم به صرفه جویی در زمان کمک میکند.سوپر آپ اسنپ پاسخی
-                                سریع به
-                                نیازهای روزمره ی شماست</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-none  d-xl-block col-xl-3 position-absolute bottom-0 end-0   ">
-                    <div class="row">
-                        <div class="col-12 border mx-auto rounded-4 w-75 h-25 special-color3">
-                            <img src="images/pocket.png" class="w-50 mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 w-100 text-end my-4 px-5">
-                            <h3 class="mb-3">به صرفه</h3>
-                            <p>سوپر آپ اسنپ علاوه بر زمان در هزینه های شما هم صرفه جویی میکند تا بهترین خدمات را با
-                                قیمتی
-                                منطق دریافت کنید.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--next part-->
-            <div class="row d-flex justify-content-lg-evenly ">
-                <div class="col-12 col-md-5  ms-md-5 col-lg-3 d-xl-none ">
-                    <div class="row ">
-                        <div class="col-12 border mx-auto mt-4 rounded-4 w-75  h-25  special-color3">
-                            <img src="images/hand.png" class="w-50 mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 w-100 text-end my-4 px-5 ">
-                            <h3 class="mb-3">آسان</h3>
-                            <p>برای استفاده از هرکدام از خدمات سوپر آپ اسنپ کافی است وارد اپلیکیشن اسنپ شوید وروی ایکون
-                                مورد
-                                نظر بزنید</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-5 col-lg-3 d-xl-none">
-                    <div class="row">
-                        <div class="col-12 border mx-auto mt-md-4 rounded-4 w-75  h-25  special-color3">
-                            <img src="images/jet.png" class="w-50 mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 w-100 text-end my-4 px-5">
-                            <h3 class="mb-3">سریع</h3>
-                            <p>قرار گرفتن خدمات مختلف در یک پلتفرم به صرفه جویی در زمان کمک میکند.سوپر آپ اسنپ پاسخی
-                                سریع به
-                                نیازهای روزمره ی شماست</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-5 mx-md-auto  mx-lg-0 col-lg-3 mt-lg-4 d-xl-none">
-                    <div class="row">
-                        <div class="col-12 border mx-auto rounded-4 w-75 h-25 special-color3">
-                            <img src="images/pocket.png" class="w-50 mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 w-100 text-end my-4 px-5">
-                            <h3 class="mb-3">به صرفه</h3>
-                            <p>سوپر آپ اسنپ علاوه بر زمان در هزینه های شما هم صرفه جویی میکند تا بهترین خدمات را با
-                                قیمتی
-                                منطق دریافت کنید.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!--next part-->
-            <div class="row special-color2 mx-0">
-                <div class="col-12">
-                    <h1 class="w-100 text-center mt-5">در کمتر از 10 دقیقه ثبت نام کنید و به ناوگان اسنپ ببپیوندید</h1>
-                    <p class="w-100 text-center mt-4">بدون نباز به مراجعه حضوری از طریق این صفحه تمام مراحل ثبت نام را
-                        اینترنتی انجام دهید</p>
-                </div>
-                <div class="col-6 d-grid gap-2 col-6 mx-auto mt-5">
-                    <button class="btn  text-light special-color1" type="button">ثبت نام رانندگان</button>
-                </div>
-                <div class="col-12 my-5 ">
-                    <video controls class="w-100 rounded-3">
-                        <source src="videos/jazb-ranande.mp4">
-
-                    </video>
-                </div>
-
-                <!--next part-->
-                <div class="row  d-xl-none">
-                    <div class="col-12  mb-5  border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="row">
-                            <div class="col-12"><img src="images/clock21.png" class="d-block mx-auto mt-4 mb-3">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="text-end w-100 mb-3">درآمد تضمینی+پاداش های ماهانه وهفتگی</h2>
-                                <p class="text-end w-100 mb-4 text-secondary">با فعالیت در ناوگان اسنپ علاوه بر کسب درآمد مستمروامکان
-                                    تسویه در لحظه میتوانیدبا شرکت در طرحهای تشویقی مختلف درامد خود را افزایش دهید</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12  mb-5 border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="row">
-                            <div class="col-12"><img src="images/clock22.png" class="d-block mx-auto mt-4 mb-3">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="text-end w-100 mb-3">ساعت کاری دلخواه</h2>
-                                <p class="text-end w-100 mb-4 text-secondary">فعالیت در ناوگان اسنپ محدودیت زمانی نداردو میتوانید
-                                    فعالیت خود را در هرساعت از شبانه روزو متناسب با برنامه زندگیتان شخصی سازی کنید</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12  mb-5 border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="row">
-                            <div class="col-12"><img src="images/clock23.png" class="d-block mx-auto mt-4 mb-3">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="text-end w-100 mb-3">مزایا وخدمات باشگاه رانندگان</h2>
-                                <p class="text-end w-100 mb-4 text-secondary">باشگاه رانندگان اسنپ به تازگی سرویس جدید اسنپ کارفیکس را
-                                    برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12  mb-5 border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="row">
-                            <div class="col-12"><img src="images/clock24.png" class="d-block mx-auto mt-4 mb-3">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="text-end w-100 mb-3">کارفیکس</h2>
-                                <p class="text-end w-100 mb-4 text-secondary">باشگاه رانندگان اسنپ به تازگی سرویس جدید اسنپ کارفیکس را
-                                    برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <br>
-                <br>
-                <!--for xl size  border 2*2 -->
-                <div class="row  d-none d-xl-flex justify-content-xl-evenly ">
-                    <div class="col-xl-5 ms-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="col-xl-8  ">
-                            <h2 class="text-end w-100 mb-2 mt-3">ساعت کاری دلخواه</h2>
-                            <p class="text-end   w-100 mb-5 text-secondary">فعالیت در ناوگان اسنپ محدودیت زمانی نداردو میتوانید
-                                فعالیت خود را در هرساعت از شبانه روزو متناسب با برنامه زندگیتان شخصی سازی کنید</p>
-                        </div>
-                        <div class="col-xl-4">
-                            <img src="images/clock.png" class="w-50 mx-auto pt-5 d-block ">
-                        </div>
-
-                    </div>
-
-                    <div
-                        class=" col-xl-5 me-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="col-xl-8 ">
-                            <h2 class="text-end w-100 mb-2 mt-3">درآمد تضمینی+پاداش های ماهانه وهفتگی</h2>
-                            <p class="text-end w-100 mb-5 text-secondary">با فعالیت در ناوگان اسنپ علاوه بر کسب درآمد مستمروامکان
-                                تسویه در لحظه میتوانیدبا شرکت در طرحهای تشویقی مختلف درامد خود را افزایش دهید</p>
-                        </div>
-
-                        <div class="col-xl-4">
-                            <img src="images/clock2.png" class="w-50 mx-auto pt-5 d-block ">
-                        </div>
-
-                    </div>
-
-                    <div class="col-xl-5 ms-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="col-xl-8 ">
-                            <h2 class="text-end w-100 mb-2 mt-3">کارفیکس</h2>
-                            <p class="text-end w-100 mb-5 text-secondary">باشگاه رانندگان اسنپ به تازگی سرویس جدید اسنپ کارفیکس را
-                                برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است</p>
-                        </div>
-                        <div class="col-xl-4">
-                            <img src="images/clock3.png" class="w-50 mx-auto pt-5 d-block ">
-                        </div>
-
-                    </div>
-
-                    <div
-                        class=" col-xl-5 me-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
-                        <div class="col-xl-8 ">
-                            <h2 class="text-end w-100 mb-2 mt-3">مزایا وخدمات باشگاه رانندگان</h2>
-                            <p class="text-end w-100 mb-5 text-secondary">باشگاه رانندگان اسنپ به تازگی سرویس جدید اسنپ کارفیکس را
-                                برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است</p>
-                        </div>
-                        <div class="col-xl-4">
-                            <img src="images/clock4.png" class="w-50 mx-auto pt-5 d-block ">
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-        <!--next part-->
-
-         <div >
-            <ul class="d-flex w-100 list-unstyled flex-row-reverse flex-wrap justify-content-around mx-auto mb-2 mb-md-0">
-                <li>
-                    <a href="#" class="text-decoration-none d-block ps-2 pe-2">  <p class="text-secondary pt-2">فرصتهای شفلی</p></a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none d-block ps-2 pe-2"><p class="text-secondary pt-2">بلاگ</p></a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none d-block ps-2 pe-2"> <p class="text-secondary pt-2">باشگاه رانندگان</p></a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none d-block ps-2 pe-2"> <p class="text-secondary pt-2">ثبت نام رانندگان </p></a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none d-block ps-2 pe-2"><p class="text-secondary pt-2">پنل سازمانی</p></a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none d-block ps-2 pe-2"><p class="text-secondary pt-2">درباره ما</p></a>
-                </li>
-                <li>
-                    <a href="#" class="text-decoration-none d-block ps-2 pe-2"> <p class="text-secondary pt-2">تماس با ما</p></a>
-                </li>
-            </ul>
-
         </div>
 
+        <!--next 3 border for 3 size until befor lg part -->
+        <div class="row d-flex d-lg-none justify-content-evenly ">
+            <div class="col-12 col-md-5  ms-md-5  d-lg-none ">
+                <div class="row ">
+                    <div class="col-12 border mx-auto mt-4 rounded-4 w-75  h-25  special-color3">
+                        <img src="images/hand.png" class="w-50 mx-auto d-block">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 w-100 text-end my-4 px-5 ">
+                        <h3 class="mb-3">آسان</h3>
+                        <p>برای استفاده از هرکدام از خدمات سوپر آپ اسنپ کافی است وارد اپلیکیشن اسنپ شوید
+                            وروی ایکون
+                            مورد
+                            نظر بزنید</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5  d-lg-none">
+                <div class="row">
+                    <div class="col-12 border mx-auto mt-md-4 rounded-4 w-75  h-25  special-color3">
+                        <img src="images/jet.png" class="w-50 mx-auto d-block">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 w-100 text-end my-4 px-5">
+                        <h3 class="mb-3">سریع</h3>
+                        <p>قرار گرفتن خدمات مختلف در یک پلتفرم به صرفه جویی در زمان کمک میکند.سوپر آپ اسنپ
+                            پاسخی
+                            سریع به
+                            نیازهای روزمره ی شماست</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 mx-md-auto  mx-lg-0  d-lg-none">
+                <div class="row">
+                    <div class="col-12 border mx-auto rounded-4 w-75 h-25 special-color3">
+                        <img src="images/pocket.png" class="w-50 mx-auto d-block">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 w-100 text-end my-4 px-5">
+                        <h3 class="mb-3">به صرفه</h3>
+                        <p>سوپر آپ اسنپ علاوه بر زمان در هزینه های شما هم صرفه جویی میکند تا بهترین خدمات را
+                            با
+                            قیمتی
+                            منطق دریافت کنید.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--next part-->
+    <!-- p and image for lg up size next to each other-->
+    <div class="container-fluid">
+        <div class="row special-h1 position-relative  pe-0">
+            <div class="d-none d-lg-block col-lg-6 ">
+                <h3 class="text-end mt-5 pe-3 ps-5 mb-3 w-100">سوپر آپ اسنپ پاسخی به تمام نیازها</h3>
+                <p class="text-end mt-3 pe-3 ps-5 w-100">اسنپ اولین تاکسی اینترنتی ایران بعد از 5 سال فعالیت در
+                    حوزه تردد
+                    شهری به یک سوپر آپ باخدمات متنوع تبدیل شد.سوپر آپ اسنپ راه حلی جدیدوساده است که با
+                    استفاده از آن
+                    تنها با یک اپلیکیشن میتوانید علاوه بردرخواستخودرو موتور و وانت از خدمات متعددی از جمله
+                    سفارش غذا
+                    پزشک و مشاورآنلاین خرید از سوپر مارکت ها و فروشگاهها اسباب کشی حرید بلیط رزرو هتل پرداخت
+                    قبض
+                    وخرید شارژ استفاده کرد</p>
+            </div>
+            <div class="d-none d-lg-flex col-lg-6 pe-0 ">
+                <img src="images/super-app.jpg" class="w-100 ">
+            </div>
+
+            <!--3 border should be on (image and p) that are befor lg up-->
+            <div class="d-none d-lg-block col-lg-3  position-absolute  bottom-0 start-0">
+                <div class="row ">
+                    <div class="col-12 border mx-auto rounded-4 w-75  h-25  special-color3">
+                        <img src="images/hand.png" class="w-50 mx-auto d-block">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 w-100 text-end my-4 px-5 ">
+                        <h3 class="mb-3">آسان</h3>
+                        <p>برای استفاده از هرکدام از خدمات سوپر آپ اسنپ کافی است وارد اپلیکیشن اسنپ شوید
+                            وروی ایکون
+                            مورد
+                            نظر بزنید</p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="d-none d-lg-block col-lg-3 position-absolute  bottom-0 start-50 translate-middle-x  special-marg2 ">
+                <div class="row">
+                    <div class="col-12 border mx-auto rounded-4 w-75  h-25  special-color3">
+                        <img src="images/jet.png" class="w-50 mx-auto d-block">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 w-100 text-end my-4 px-5">
+                        <h3 class="mb-3">سریع</h3>
+                        <p>قرار گرفتن خدمات مختلف در یک پلتفرم به صرفه جویی در زمان کمک میکند.سوپر آپ اسنپ
+                            پاسخی
+                            سریع به
+                            نیازهای روزمره ی شماست</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none  d-lg-block col-lg-3 position-absolute  bottom-0 end-0 me-lg-2  ">
+                <div class="row">
+                    <div class="col-12 border mx-auto rounded-4 w-75 h-25 special-color3">
+                        <img src="images/pocket.png" class="w-50 mx-auto d-block">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 w-100 text-end my-4 px-5">
+                        <h3 class="mb-3">به صرفه</h3>
+                        <p>سوپر آپ اسنپ علاوه بر زمان در هزینه های شما هم صرفه جویی میکند تا بهترین خدمات را
+                            با
+                            قیمتی
+                            منطق دریافت کنید.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--end part-->
+    <div class="container-fluid">
+        <div class="row special-color2  mt-lg-5 ">
+            <div class="col-12">
+                <h1 class="w-100 text-center mt-5">در کمتر از 10 دقیقه ثبت نام کنید و به ناوگان اسنپ
+                    ببپیوندید</h1>
+                <p class="w-100 text-center mt-4">بدون نباز به مراجعه حضوری از طریق این صفحه تمام مراحل ثبت
+                    نام را
+                    اینترنتی انجام دهید</p>
+            </div>
+            <div class="col-6 d-grid gap-2 col-6 mx-auto mt-5">
+                <button class="btn  text-light special-color1" type="button">ثبت نام رانندگان</button>
+            </div>
+            <div class="col-11 mx-auto my-5 ">
+                <video controls class="w-100 rounded-3">
+                    <source src="videos/jazb-ranande.mp4">
+                </video>
+            </div>
+
+            <!--border 1*1 until xl size-->
+            <div class="row  d-xl-none ">
+                <div class="col-11  mb-5  border mx-auto  border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="row">
+                        <div class="col-12"><img src="images/clock21.png" class="d-block mx-auto mt-4 mb-3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-end w-100 mb-3">درآمد تضمینی+پاداش های ماهانه وهفتگی</h2>
+                            <p class="text-end w-100 mb-4 text-secondary">با فعالیت در ناوگان اسنپ علاوه بر
+                                کسب
+                                درآمد مستمروامکان
+                                تسویه در لحظه میتوانیدبا شرکت در طرحهای تشویقی مختلف درامد خود را افزایش
+                                دهید</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 mx-auto  mb-5 border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="row">
+                        <div class="col-12"><img src="images/clock22.png" class="d-block mx-auto mt-4 mb-3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-end w-100 mb-3">ساعت کاری دلخواه</h2>
+                            <p class="text-end w-100 mb-4 text-secondary">فعالیت در ناوگان اسنپ محدودیت
+                                زمانی نداردو
+                                میتوانید
+                                فعالیت خود را در هرساعت از شبانه روزو متناسب با برنامه زندگیتان شخصی سازی
+                                کنید</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 mx-auto mb-5 border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="row">
+                        <div class="col-12"><img src="images/clock23.png" class="d-block mx-auto mt-4 mb-3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-end w-100 mb-3">مزایا وخدمات باشگاه رانندگان</h2>
+                            <p class="text-end w-100 mb-4 text-secondary">باشگاه رانندگان اسنپ به تازگی
+                                سرویس جدید
+                                اسنپ کارفیکس را
+                                برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 mx-auto  mb-5 border border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="row">
+                        <div class="col-12"><img src="images/clock24.png" class="d-block mx-auto mt-4 mb-3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-end w-100 mb-3">کارفیکس</h2>
+                            <p class="text-end w-100 mb-4 text-secondary">باشگاه رانندگان اسنپ به تازگی
+                                سرویس جدید
+                                اسنپ کارفیکس را
+                                برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!--for xl size up  border 2*2 -->
+            <div class="row  d-none d-xl-flex justify-content-xl-evenly ">
+                <div class="col-xl-5 ms-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="col-xl-8  ">
+                        <h2 class="text-end w-100 mb-2 mt-3">ساعت کاری دلخواه</h2>
+                        <p class="text-end   w-100 mb-5 text-secondary">فعالیت در ناوگان اسنپ محدودیت زمانی
+                            نداردو
+                            میتوانید
+                            فعالیت خود را در هرساعت از شبانه روزو متناسب با برنامه زندگیتان شخصی سازی کنید
+                        </p>
+                    </div>
+                    <div class="col-xl-4">
+                        <img src="images/clock.png" class="w-50 mx-auto pt-5 d-block ">
+                    </div>
+                </div>
+                <div class=" col-xl-5 me-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="col-xl-8 ">
+                        <h2 class="text-end w-100 mb-2 mt-3">درآمد تضمینی+پاداش های ماهانه وهفتگی</h2>
+                        <p class="text-end w-100 mb-5 text-secondary">با فعالیت در ناوگان اسنپ علاوه بر کسب
+                            درآمد
+                            مستمروامکان
+                            تسویه در لحظه میتوانیدبا شرکت در طرحهای تشویقی مختلف درامد خود را افزایش دهید
+                        </p>
+                    </div>
+
+                    <div class="col-xl-4">
+                        <img src="images/clock2.png" class="w-50 mx-auto pt-5 d-block ">
+                    </div>
+
+                </div>
+
+                <div class="col-xl-5 ms-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="col-xl-8 ">
+                        <h2 class="text-end w-100 mb-2 mt-3">کارفیکس</h2>
+                        <p class="text-end w-100 mb-5 text-secondary">باشگاه رانندگان اسنپ به تازگی سرویس
+                            جدید اسنپ
+                            کارفیکس را
+                            برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است</p>
+                    </div>
+                    <div class="col-xl-4">
+                        <img src="images/clock3.png" class="w-50 mx-auto pt-5 d-block ">
+                    </div>
+
+                </div>
+
+                <div class=" col-xl-5 me-5  mb-5 d-xl-flex border  border-white bg-white  h-auto rounded rounded-4 ">
+                    <div class="col-xl-8 ">
+                        <h2 class="text-end w-100 mb-2 mt-3">مزایا وخدمات باشگاه رانندگان</h2>
+                        <p class="text-end w-100 mb-5 text-secondary">باشگاه رانندگان اسنپ به تازگی سرویس
+                            جدید اسنپ
+                            کارفیکس را
+                            برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه اندازی کرده است</p>
+                    </div>
+                    <div class="col-xl-4">
+                        <img src="images/clock4.png" class="w-50 mx-auto pt-5 d-block ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+
+    <div>
+        <ul class="d-flex w-100 list-unstyled flex-row-reverse flex-wrap justify-content-around mx-auto mb-2 mb-md-0">
+            <li>
+                <a href="#" class="text-decoration-none d-block ps-2 pe-2">
+                    <p class="text-secondary pt-2">فرصتهای شفلی</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-decoration-none d-block ps-2 pe-2">
+                    <p class="text-secondary pt-2">بلاگ</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-decoration-none d-block ps-2 pe-2">
+                    <p class="text-secondary pt-2">باشگاه رانندگان</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-decoration-none d-block ps-2 pe-2">
+                    <p class="text-secondary pt-2">ثبت نام رانندگان </p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-decoration-none d-block ps-2 pe-2">
+                    <p class="text-secondary pt-2">پنل سازمانی</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-decoration-none d-block ps-2 pe-2">
+                    <p class="text-secondary pt-2">درباره ما</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-decoration-none d-block ps-2 pe-2">
+                    <p class="text-secondary pt-2">تماس با ما</p>
+                </a>
+            </li>
+        </ul>
 
     </div>
+
 </body>
 
 </html>

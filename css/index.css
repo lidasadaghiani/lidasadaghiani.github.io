@@ -1,21 +1,58 @@
-.box{
+.box {
     height: 60px;
 }
-body{
-    height: 4000px;
+
+.hh {
+    height: 100px;
 }
-.special-color1{
+
+
+
+.special-color1 {
     background-color: #21aa58;
 }
-.special-color2{
+
+.special-color2 {
     background-color: #f2f5f8;
 }
-.image-radius{
+
+.image-radius {
     border-radius: 26px;
 }
-.special-color3{
+
+.special-color3 {
     background-color: #f2f5f8;
 }
-.h-border{
-    height: 150px;
+
+.mar1 {
+    margin-top: -20px;
+
+
+}
+
+.mar2 {
+    margin-top: -20px;
+
+}
+
+
+
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    .special-h1 {
+        height: 700px;
+    }
+}
+
+@media all and (min-width:1200px) and (max-width:1399px) {
+    .special-h1 {
+        height: 800px;
+    }
+}
+
+@media all and (min-width:1400px) and {
+    .special-h1 {
+        height: 1000px;
+    }
+
 }

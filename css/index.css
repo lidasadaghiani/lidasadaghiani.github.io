@@ -28,17 +28,11 @@ body{
 
 .mar1 {
     margin-top: -20px;
-
-
 }
 
 .mar2 {
     margin-top: -20px;
-
 }
-
-
-
 
 @media all and (min-width:992px) and (max-width:1199px) {
     .special-h1 {

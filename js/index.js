@@ -87,7 +87,7 @@ menu2222.addEventListener("mouseleave", function () {
 const menu11111= document.querySelector(".search1");
 const menu22222= document.querySelector(".zirmenusearch");
 
-document.querySelector("body").addEventListener("click", function (w) {
+document.querySelector("body").addEventListener("mouseover", function (w) {
     if (w.target == menu11111 || w.target == menu22222) {
         menu22222.classList.add("dflexxxxx");
     }

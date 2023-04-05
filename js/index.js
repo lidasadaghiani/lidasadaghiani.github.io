@@ -174,6 +174,7 @@ item[1].addEventListener("click", function () {
     submenu[1].classList.toggle("sub-height");
     submenu[2].classList.remove("sub-height");
   });
+  
   item[2].addEventListener("click", function () {
     submenu[0].classList.remove("sub-height");
     submenu[1].classList.remove("sub-height");
